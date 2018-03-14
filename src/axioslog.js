@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-	baseURL: 'https://logdaily-19fc9.firebaseio.com/'
+	baseURL: 'https://logdaily-demo.firebaseio.com/ '
 });
 
 export default instance;
